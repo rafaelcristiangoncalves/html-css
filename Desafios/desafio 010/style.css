@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Fontesubtitulo;
+    src: url(fontes/idroid.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-image: linear-gradient(to top, #195734, #299156e3);
+    margin: 0;
+    padding: 0;
+}
+
+h1.header01{
+    padding-top: 5px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+h1.header01 + p{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+    
+    
+}
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+div.imagem{
+    text-align: center;
+}
+h2{
+    font-family: Fontesubtitulo;
+    color: rgb(122, 168, 122);
+    background-image: linear-gradient(to right, rgb(188, 231, 188), rgba(0, 128, 0, 0));
+    border-radius: 2px;
+    text-indent: 10px;
+}
+
+h1.titulo{
+    font-family: Fontesubtitulo;
+    color: rgb(122, 168, 122);
+    border-radius: 10px;
+}
+
+aside { 
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding: 0px 0px 4px 0px ;
+}
+
+aside > h3{
+    background-color: #2FA866;
+    color: white;
+    padding: 3px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+p{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-indent: 20px;
+}
+
+aside > p{
+    margin: 15px;
+}
+
+aside > ol > li{
+    list-style-type: "\2713"
+}
+
+aside > ol{
+    height: 160px;
+    overflow-y: hidden;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  footer{
+    background-color: green;
+    text-align: center;
+  }
+
+  div#container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  body{
+    background-color: #84E1AD;
+    margin: 0;
+    padding: 0;
+  }
